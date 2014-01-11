@@ -1,0 +1,104 @@
+blackking ~/dev/projects/one-hour-codelab: ./runtests.sh 
+
+Type Analysis, running dart_analyzer...
+web/1-blankbadge
+Analyzing web/1-blankbadge/piratebadge.dart...
+No issues found
+web/1-blankbadge/piratebadge.dart: Passed analysis.
+web/2-inputnamebadge
+Analyzing web/2-inputnamebadge/piratebadge.dart...
+No issues found
+web/2-inputnamebadge/piratebadge.dart: Passed analysis.
+web/3-buttonbadge
+Analyzing web/3-buttonbadge/piratebadge.dart...
+No issues found
+web/3-buttonbadge/piratebadge.dart: Passed analysis.
+web/4-classbadge
+Analyzing web/4-classbadge/piratebadge.dart...
+No issues found
+web/4-classbadge/piratebadge.dart: Passed analysis.
+web/5-localbadge
+Analyzing web/5-localbadge/piratebadge.dart...
+No issues found
+web/5-localbadge/piratebadge.dart: Passed analysis.
+web/6-piratebadge_json
+Analyzing web/6-piratebadge_json/piratebadge.dart...
+No issues found
+web/6-piratebadge_json/piratebadge.dart: Passed analysis.
+web/packages
+web/piratebadge.css
+
+####################################################
+PASSING = 6
+WARNINGS = 0
+FAILURES = 0
+####################################################
+
+blackking ~/dev/projects/one-hour-codelab: ls
+packages             pubspec.lock  README.md    web
+piratebadgetests.md  pubspec.yaml  runtests.sh
+blackking ~/dev/projects/one-hour-codelab: ./runtests.sh 
+
+Type Analysis, running dart_analyzer...
+web/1-blankbadge
+Analyzing web/1-blankbadge/piratebadge.dart...
+No issues found
+web/1-blankbadge/piratebadge.dart: Passed analysis.
+web/2-inputnamebadge
+Analyzing web/2-inputnamebadge/piratebadge.dart...
+No issues found
+web/2-inputnamebadge/piratebadge.dart: Passed analysis.
+web/3-buttonbadge
+Analyzing web/3-buttonbadge/piratebadge.dart...
+No issues found
+web/3-buttonbadge/piratebadge.dart: Passed analysis.
+web/4-classbadge
+Analyzing web/4-classbadge/piratebadge.dart...
+No issues found
+web/4-classbadge/piratebadge.dart: Passed analysis.
+web/5-localbadge
+Analyzing web/5-localbadge/piratebadge.dart...
+No issues found
+web/5-localbadge/piratebadge.dart: Passed analysis.
+web/6-piratebadge_json
+Analyzing web/6-piratebadge_json/piratebadge.dart...
+No issues found
+web/6-piratebadge_json/piratebadge.dart: Passed analysis.
+web/7-tests
+Analyzing web/7-tests/piratebadge.dart...
+No issues found
+web/7-tests/piratebadge.dart: Passed analysis.
+Analyzing web/7-tests/piratebadgetests.dart...
+[error] The function 'quickSort' is not defined (/home/matthew/dev/projects/one-hour-codelab/web/7-tests/piratebadgetests.dart, line 8, col 12)
+[error] The function '_partition' is not defined (/home/matthew/dev/projects/one-hour-codelab/web/7-tests/piratebadgetests.dart, line 14, col 17)
+2 errors found.
+web/7-tests/piratebadgetests.dart: FAILURE.
+web/packages
+web/piratebadge.css
+
+####################################################
+PASSING = 7
+WARNINGS = 0
+FAILURES = 1
+####################################################
+
+blackking ~/dev/projects/one-hour-codelab: gedit ~/.bash_history &
+[1] 23951
+blackking ~/dev/projects/one-hour-codelab: gedit .bash_history &
+[2] 23966
+[1]   Done                    gedit ~/.bash_history
+blackking ~/dev/projects/one-hour-codelab: script
+Script started, file is typescript
+
+
+
+^Z
+blackking ~/dev/projects/one-hour-codelab: 
+blackking ~/dev/projects/one-hour-codelab: ls
+packages             pubspec.lock  README.md    typescript
+piratebadgetests.md  pubspec.yaml  runtests.sh  web
+blackking ~/dev/projects/one-hour-codelab: gedit typescript &
+[1] 24094
+blackking ~/dev/projects/one-hour-codelab: rm typescript 
+[1]+  Done                    gedit typescript
+blackking ~/dev/projects/one-hour-codelab: 
